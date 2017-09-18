@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro');
+body {
+		background-color: white;
+}
+
+h1{
+font-family: 'Roboto Mono', monospace;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{font-family: 'Source Sans Pro', sans-serif;
+}
