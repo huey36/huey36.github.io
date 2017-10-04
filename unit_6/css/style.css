@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro');
+* { margin:0; padding:0; box-sizing:border-box; }
 header{
   font-color:#fff;
 }
@@ -39,31 +40,13 @@ a:hover {
     border: 1px black solid;
     padding: 5px;
 }
-#left {
+#three_column > * {
     background-color: #87a339;
     border: 1px black solid;
-    padding: 10px;
-    margin: 5px;
+    padding: 2em;
+    margin: 1%;
     float: left;
-    width: 30%;
-}
-#middle {
-    background-color: #87a339;
-    border: 1px black solid;
-    padding: 10px;
-    margin: 5px;
-    float:left;
-    width: 30%;
-}
-#right {
-    background-color: #87a339;
-    border: 1px black solid;
-    padding: 10px;
-    margin: 4px;
-    float: right;
-    width: 30%;
-}
-article{
+    width: 31.33%;
 }
 footer{
 text-align: center;
