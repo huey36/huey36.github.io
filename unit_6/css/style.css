@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro');
+header{
+  font-color:#fff;
+}
+nav{
+  font-size:1em;
+  float: right;
+}
+nav a{
+  text-decoration:none;
+  color: #fff;
+  margin: 1em;
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover {
+  color: black;
+}
+#one{
+  	background-image: linear-gradient(rgba(14, 47, 16, .6), rgba(14, 47, 16, .6)), url("../images/adpro1.jpg");
+    background-size: cover;
+  	background-repeat: no-repeat;
+  	color: #fff;
+  	font-size: 22px;
+  	border: 2px;
+  	padding: 30px;
+  	line-height: 150%;
+}
+.main{
+    color: #fff;
+    font-size: 30px;
+    border: 10px;
+    border-color: white;
+    padding: 80px;
+    text-align: center;
+}
+#three_column {
+    background-color: #d0d1cc;
+    border: 1px black solid;
+    padding: 5px;
+}
+#left {
+    background-color: #87a339;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    width: 30%;
+}
+#middle {
+    background-color: #87a339;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+    float:left;
+    width: 30%;
+}
+#right {
+    background-color: #87a339;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 4px;
+    float: right;
+    width: 30%;
+}
+article{
+}
+footer{
+text-align: center;
+color: #fff;
+background-color: #d0d1cc
+}
+}
+h1{
+font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{font-family: 'Source Sans Pro', sans-serif;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+img{
+  width: 25%;
+  height: auto;
+}
+
